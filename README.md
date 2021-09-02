@@ -2,7 +2,7 @@
 투비소프트_넥사크로17_학습
 2021-09-02~
 
-1일차 학습내용
+1일차 학습내용 - 루비소프트 넥사크로-기본과정 (url - https://www.youtube.com/watch?v=ys8lD1toHVw )
 
 
 
