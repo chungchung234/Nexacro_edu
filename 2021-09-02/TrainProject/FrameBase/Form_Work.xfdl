@@ -1,8 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <FDL version="2.1">
-  <Form id="Form_Work" width="1130" height="620" titletext="Form_Work">
+  <Form id="Form_Work" width="1130" height="620" titletext="Form_Work" background="url('..\..\..\..\..\..\..\..\사진\simpsons-couch-zoom-background.jpg') repeat left bottom">
     <Layouts>
-      <Layout width="1130" height="620" screenid="Desktop_screen"/>
+      <Layout width="1130" height="620" screenid="Desktop_screen">
+        <TextArea id="TextArea00" taborder="0" left="71" top="171" width="444" height="318" displaynulltext="Hello World"/>
+      </Layout>
     </Layouts>
   </Form>
 </FDL>

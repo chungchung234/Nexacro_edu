@@ -1,8 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <FDL version="2.1">
-  <Form id="Form_Top" width="1280" height="100" titletext="Form_Top">
+  <Form id="Form_Top" width="1280" height="100" titletext="Form_Top" color="aliceblue" background="none repeat left top slategray" borderRadius="10px">
     <Layouts>
-      <Layout width="1280" height="100" screenid="Desktop_screen"/>
+      <Layout width="1280" height="100" screenid="Desktop_screen">
+        <TextArea id="TextArea00" taborder="0" left="34" top="20" width="256" height="53" onchanged="TextArea00_onchanged" displaynulltext="HelloWorld"/>
+        <Button id="Button00" taborder="1" text="HelloWorld" left="450" top="25" width="120" height="50" color="black"/>
+        <Edit id="Edit00" taborder="2" left="300" top="40" width="140" height="20" displaynulltext="Search"/>
+      </Layout>
     </Layouts>
+    <Script type="xscript5.1"><![CDATA[
+this.TextArea00_onchanged = function(obj:nexacro.TextArea,e:nexacro.ChangeEventInfo)
+{
+	
+};
+
+]]></Script>
   </Form>
 </FDL>

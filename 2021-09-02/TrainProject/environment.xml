@@ -4,7 +4,17 @@
     <ScreenDefinition>
       <Screen id="Desktop_screen" type="desktop"/>
     </ScreenDefinition>
-    <Variables/>
-    <Cookies/>
+    <Variables>
+      <Variable id="GV_LOGIN_ID" initval=""/>
+      <Variable id="GV_PWD"/>
+    </Variables>
+    <Cookies>
+      <Cookie id="JSESSIONID" secure="false"/>
+      <Cookie id="JID" secure="false"/>
+      <Cookie id="SID" secure="false"/>
+    </Cookies>
+    <httpheader>
+      <Variable id="PROJECTNAME" initval="NEXCRO"/>
+    </httpheader>
   </Environment>
 </ENV>
